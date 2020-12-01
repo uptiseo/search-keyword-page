@@ -1,0 +1,7 @@
+<IfModule mod_rewrite.c>
+# external redirect from actual URL to pretty one
+RewriteCond %{THE_REQUEST} /searchkey(?:\.php)?\?q=([^\s&]+) [NC]
+RewriteRule ^ searchkey/%1? [R=302,L,NE]
+# internal forward from pretty URL to actual one         
+RewriteRule ^searchkey/(.+)$ searchkey.php?q=$1 [L,QSA,NC]
+</IfModule>
