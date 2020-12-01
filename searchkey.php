@@ -11,9 +11,9 @@ function prettySubmit(form, evt) {
 }    
 </script>
 <?php 
-if (isset($_GET['q'])) {$key= str_replace('-', ' ',$_GET['q']);
+$key= str_replace('-', ' ',$_GET['q']);
 $keyword= str_replace('-', ', ',$_GET['q']);
-}
+
 ?>
 <title><?php echo ucwords($key); ?> </title>
   <meta name="description" content="<?php echo $key;?>" />
