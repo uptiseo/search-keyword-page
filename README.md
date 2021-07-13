@@ -1,6 +1,6 @@
 # search-keyword-page
-Create page using search keywords
-
+Create page using search keywords https://uptiseo.w3spaces.com/
+Media partner https://tdpelmedia.com/
 Thanks to visit us:
 
 
