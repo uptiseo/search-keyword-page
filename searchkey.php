@@ -10,14 +10,9 @@ function prettySubmit(form, evt) {
    return false;
 }    
 </script>
-<?php 
-$key= str_replace('-', ' ',$_GET['q']);
-$keyword= str_replace('-', ', ',$_GET['q']);
 
-?>
-<title><?php echo ucwords($key); ?> </title>
-  <meta name="description" content="<?php echo $key;?>" />
-  <meta name="keywords" content="<?php echo $key;?>" />
+<title>Title</title>
+
   </head>
 <body>
  <h1 style="font-size:18px;color:white;">Search Result: <?php echo ucwords($key); ?></h1>
